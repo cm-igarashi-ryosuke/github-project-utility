@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "content_scripts": [
     {
-      "matches": ["https://github.com/orgs/cm-pliser/projects/*"],
+      "matches": ["https://github.com/*/projects/*"],
       "js": ["jquery-3.3.1.min.js", "content_script.js"]
     }
   ]
