@@ -1,0 +1,4 @@
+/* CardDetailエリアの幅を広げる */
+.project-pane.js-project-pane.js-project-card-details-pane {
+  width: 600px!important;
+}

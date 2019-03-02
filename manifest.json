@@ -5,7 +5,8 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*/projects/*"],
-      "js": ["jquery-3.3.1.min.js", "content_script.js"]
+      "js": ["jquery-3.3.1.min.js", "project/script.js"],
+      "css": ["project/style.css"]
     }
   ]
 }
