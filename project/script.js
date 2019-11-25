@@ -16,7 +16,7 @@ $(function() {
         .each(function() {
           total += extractHours($(this).text());
         });
-      const title = $(this).find('h4 > span.js-project-column-name');
+      const title = $(this).find('span.js-project-column-name');
       const addText = total > 0 ? `[${total}h]` : '';
       const newTitle = title
         .text()
